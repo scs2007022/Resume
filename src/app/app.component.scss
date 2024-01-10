@@ -1,0 +1,13 @@
+.page{
+    padding:3%;
+    margin:auto;
+}
+.page[size='A4']{
+    width: 21cm;
+    height: 29.7cm;
+}
+
+.page[direction="vertical"]{
+    display: flex;
+    flex-direction: column;
+}
