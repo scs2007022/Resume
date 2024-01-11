@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, TemplateRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,24 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Resume';
+  items1=[
+    {
+      header:'First row',
+      date:'2024-01-11'
+    },
+    {
+      header:'Second row',
+      date:'2024-01-12'
+    },
+  ]
+  items2=[
+    {
+      header:'First row',
+      date:'2024-01-11'
+    },
+    {
+      header:'Second row',
+      date:'2024-01-12'
+    },
+  ]
 }

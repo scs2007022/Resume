@@ -1,5 +1,5 @@
 .page{
-    padding:3%;
+    padding:1%;
     margin:auto;
 }
 .page[size='A4']{
@@ -12,8 +12,11 @@
     flex-direction: column;
 }
 
-#content-grid{
+#content{
     padding:10px;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+}
+#content > app-section:not(:last-child)::after{
+    content:"";
+    display: block;
+    border-bottom: 1px dotted black;
 }

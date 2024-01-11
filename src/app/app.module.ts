@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { PersonalContactComponent } from './personal-contact/personal-contact.component';
 import { MatIconModule } from '@angular/material/icon';
+import { SectionComponent } from './section/section.component';
 @NgModule({
   declarations: [
     AppComponent,
-    PersonalContactComponent
+    PersonalContactComponent,
+    SectionComponent
   ],
   imports: [
     BrowserModule,
