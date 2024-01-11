@@ -11,3 +11,9 @@
     display: flex;
     flex-direction: column;
 }
+
+#content-grid{
+    padding:10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
