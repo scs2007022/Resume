@@ -21,3 +21,11 @@ div[row]{
     }
 }
 
+label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    span{
+        margin-left: 3px;
+    }
+}

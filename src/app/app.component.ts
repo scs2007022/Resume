@@ -10,7 +10,11 @@ export class AppComponent {
   items1=[
     {
       header:'First row',
-      date:'2024-01-11'
+      date:'2024-01-11',
+      idens:[
+        "iden 1",
+        "iden 2"
+      ]
     },
     {
       header:'Second row',

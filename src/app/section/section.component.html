@@ -3,8 +3,20 @@
         <h2 class="left-col">{{sectionHeader}}</h2>
         <p class="right-col">{{sectionDescription}}</p>
     </div>
-    <div class="row" *ngFor="let item of items;">
-        <h4 class="left-col">{{item.date}}</h4>
-        <div class="right-col">{{item.header}}</div>
-    </div>
+    <ng-container *ngFor="let item of items;">
+        <div class="row">
+            <h4 class="left-col">{{item.date}}</h4>
+            <div class="right-col">{{item.header}}</div>
+        </div>
+        <div class="row">
+            <div class="left-col"> </div>
+            <div class="right-col">
+                <ul>
+                    <li *ngFor="let iden of item.idens">
+                        {{iden}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </ng-container>
 </div>
