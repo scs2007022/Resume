@@ -15,7 +15,7 @@
 #content{
     padding:10px;
 }
-#content > app-section:not(:last-child)::after{
+#content > :not(:last-child)::after{
     content:"";
     display: block;
     border-bottom: 1px dotted black;

@@ -1,0 +1,18 @@
+[
+    {
+        "date":"Jun 2023 - Now",
+        "header":"Software Developer, Wisespot, Hong Kong",
+        "idens":[
+            "Develop service portal"
+        ]
+    },
+    {
+        "date":"Jun 2022 - Jun 2023",
+        "header":"Data Engineer, Linerlytica, Hong Kong",
+        "idens":[
+            "Develop scheduled web-scraping script in Python-Selenium for updating shipping data from multiple shipping companies.",
+            "Perform ETL process from MySQL and data analytics in Python-Pandas to find business-valued information.",
+            "Integrating data analytics application to SMTP service as a monitoring and subscription service."
+        ]
+    }
+]
