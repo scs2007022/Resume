@@ -6,7 +6,17 @@ import { Component, Input, TemplateRef } from '@angular/core';
   styleUrls: ['./section.component.scss']
 })
 export class SectionComponent {
-  @Input() sectionHeader!:String;
-  @Input() sectionDescription?:String;
-  @Input() items?:any[]
+
+  sectionHeader='Section Header'
+  sectionDescription='Section Description'
+  items = [
+    {
+      date:'2024/01/01',
+      header:'Item Header',
+      idens:[
+        'iden 1',
+        'iden 2'
+      ]
+    }
+  ]
 }
